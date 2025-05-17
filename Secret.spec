@@ -5,7 +5,7 @@ a = Analysis(
     ['Secret.py'],
     pathex=[],
     binaries=[],
-    datas=[('logo.png', '.'), ('flag_ru.png', '.'), ('flag_en.png', '.'), ('flag_uk.png', '.'), ('flag_de.png', '.')],
+    datas=[('logo.ico', '.'), ('ru.png', '.'), ('en.png', '.'), ('uk.png', '.'), ('de.png', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -35,5 +35,4 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['logo.ico'],
 )
